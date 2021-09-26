@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intelligence Prison Management System</title>
+     <link rel="stylesheet" href="../css/rpSystem.css">
+     <link rel="stylesheet" href="../css/normal-menu.css">
+</head>
+<body>
+    <div class="icon-bar">
+        <a class="active" href="mainPage.html">Main Page</a>
+        <a href="../prisoner.php">Prisoner</a>
+        <a href="../officer.html">Officer</a>
+        <a href="../schedule.php">Schedule</a>
+        <a href="../rpSystem.php">RP System</a>
+        <a href="../facility.php">Facility</a>
+        <a href="../database.php">Database</a>
+    </div>
+    <div class="welcome">Reward and Punishment System</div>
+    <hr>
+    <div class="flexbox-container">
+        <div class="flex-item">
+            <!--    <p id="image_logo"><img src="images/prison.png"></p>-->
+            <div class="sep" name="login_control">
+                <input class="loginButton" type="button" value="Reward" onclick="location.href='rpSystem_reward.php'"/>
+                <input class="loginButton" type="button" value="Punish" onclick="location.href='rpSystem_punish.php'"/>
+            </div>
+            <div class="sep" name="login_control">
+                <input class="loginButton" type="button" value="Prisoner Status Visualization" onclick="location.href='rpSystem_status.php'"/>
+                <input class="loginButton" type="button" value="Prisoner Performance Summary" onclick="location.href='rpSystem_summary.php'"/>
+            </div>
+        </div>
+    </div>
+<div class='footer'>
+    Copyright &copy; 2021 - 2021 Sharon Liu & Shawn Gu & Kaining Zheng
+    <a href="../login.php">Log Out</a>
+</div>
+</body>
+</html>

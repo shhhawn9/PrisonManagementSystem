@@ -1,0 +1,169 @@
+body, html {
+    font-family: 'Montserrat', normal;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather', normal;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(201, 201, 201);
+    font-family: 'Montserrat', normal;
+}
+
+h5 {
+    color: rgb(110, 233, 192);
+    font-family: 'Merriweather', normal;
+    font-size: 15px;
+    margin: 5px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+td {
+  width: 300px;
+}
+.tr-text {
+    font-family: 'Montserrat', bold;
+}
+.top-container {
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.left-container {
+    height: 100px;
+    /* background-color: white; */
+    position: relative;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.right-container {
+    /* background-color: white; */
+    padding-right: 150px;
+    padding-top:10px;
+    position: relative;
+    text-align: right;
+    height: 100px;
+    color:rgb(169, 255, 226);
+}
+
+
+.bgstyle {
+    background-image: url("images/back.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* unique css command: navigation bar */
+
+.ulnavi ul{
+    list-style-type: horizontal;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(240, 240, 240);
+    width:300px;
+    border-radius: 100px;
+}
+
+.ulnavi ul li {
+    float: center;
+}
+
+.ulnavi ul li a {
+    display: block;
+    transition-duration: 0.3s;
+    border-radius: 100px;
+    border: 5px;
+    color: rgb(82, 82, 82);
+    opacity: 1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.ulnavi ul li a:hover {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    background-color: rgb(66, 66, 66);
+}
+
+input[type=submit] {
+  background-color: #ac3939; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 24px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+input[type=submit]:hover {
+    background-color: #e6a9b6; /* Green */
+    color: rgb(116, 63, 63);
+    transition-duration: 0.3s;
+}
+input[type=text] {
+    width: 200px;
+    font-size:12px;
+    padding: 5px;
+}
+input[type=date] {
+    width: 200px;
+    font-size:12px;
+    padding:5px;
+}
+select {
+    padding: 5px;
+    width: 214px;
+    font-size: 12px;
+}
+table {
+    color:white;
+}
+/* end navigation bar */
+
+
+
+
+
+/* .provile {
+  margin-top: 50px;
+  margin-bo
+} */
+.welcome{
+    text-align:center;
+    color: #0c0b0b;
+    font-size: 40px;
+}
+.footer{
+     /*position: fixed;*/
+     text-align:center;
+     font-size:10px;
+     color: #aeaeae;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 75px;
+     margin-top:60px;
+    margin-left:0px;
+     /*box-shadow: 0px 1px 5px 5px #eee;*/
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 0px 0 0px;
+     /*box-sizing: border-box;*/
+}

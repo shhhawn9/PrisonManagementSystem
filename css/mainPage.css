@@ -1,0 +1,89 @@
+@charset "utf-8";
+body {
+    background-image: url("images/back.jpeg");;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', normal;
+}
+
+div{margin:30px;border:0;padding:0;}
+
+.welcome{
+    text-align:center;
+    color: #fffefe;
+    font-size: 35px;
+    font-family: 'Montserrat', normal;
+}
+.welcome_employee{
+    text-align:center;
+    font-family: 'Montserrat', normal;
+}
+.footer{
+     /*position: fixed;*/
+     text-align:center;
+     font-size:10px;
+     color: #aeaeae;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 75px;
+     margin-top:60px;
+    margin-left:0px;
+     /*box-shadow: 0px 1px 5px 5px #eee;*/
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 0px 0 0px;
+     /*box-sizing: border-box;*/
+ }
+#login_control {
+    padding: 0 28px;
+}
+.loginButton {
+    font-size: 14px;
+    width: 400px;
+    height: 100px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #757474;
+    border-radius: 100px;
+    border: 0;
+    float: left;
+    margin-right: 50px;
+    font-family: 'Montserrat', normal;
+}
+
+/*https://www.coder.work/article/4118368*/
+
+.flexbox-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content:center;
+    -webkit-align-items: center;
+    height:500px;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*ref to my previous project https://github.com/CPSC319-Galvanize*/
+.loginButton:hover {
+    background:linear-gradient(to bottom, #830f00 5%, #cdcdcd 100%);
+    background-color: #707070;
+}
+.loginButton:active {
+    position:relative;
+    top:1px;
+}
+
+a:link {color: #b1b1b1
+}
+a:visited {color: #b1b1b1}
+a:hover {color: #d7d6d7
+}
+a:active {color: #d7d6d7}
+

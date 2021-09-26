@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intelligence Prison Management System</title>
+    <link rel="stylesheet" href="../css/rpSystem.css">
+    <link rel="stylesheet" href="../css/normal-menu.css">
+</head>
+<body>
+<div class="icon-bar">
+    <a class="active" href="mainPage.html">Main Page</a>
+    <a href="../prisoner.php">Prisoner</a>
+    <a href="../officer.html">Officer</a>
+    <a href="../schedule.php">Schedule</a>
+    <a href="../rpSystem.php">RP System</a>
+    <a href="../facility.php">Facility</a>
+    <a href="../database.php">Database</a>
+</div>
+<div class="welcome">Reward Management</div>
+<hr>
+<div class="flexbox-container">
+    <div class="flex-item">
+        <div id="page-container">
+            <!--    <p id="image_logo"><img src="images/prison.png"></p>-->
+
+            <form method="post" action="../rpSystem_reward.php">
+                <p><div class="enterPrisoner">Please enter the prisoner id you want to reward:</div></p>
+                <p><label class="label_input">Prisoner:</label><input type="text" id="employee" class="text_field"/></p>
+                <div id="login_control">
+                    <input class="submitButton" type="submit" value="Reward">
+                    <input type="reset" value="&nbsp;Reset&nbsp;" class="submitButton">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+<div class='footer'>
+    Copyright &copy; 2021 - 2021 Sharon Liu & Shawn Gu & Kaining Zheng
+    <a location.href="login.php">Log Out</a>
+</div>
+</body>
+</html>
